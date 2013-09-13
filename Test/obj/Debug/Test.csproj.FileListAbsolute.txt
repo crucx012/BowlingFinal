@@ -1,0 +1,14 @@
+C:\Users\wblack\Documents\Visual Studio 2012\Projects\BowlingTA\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+C:\Users\wblack\Documents\Visual Studio 2012\Projects\BowlingTA\Test\bin\Debug\Test.dll
+C:\Users\wblack\Documents\Visual Studio 2012\Projects\BowlingTA\Test\bin\Debug\Test.pdb
+C:\Users\wblack\Documents\Visual Studio 2012\Projects\BowlingTA\Test\bin\Debug\BowlingTA.dll
+C:\Users\wblack\Documents\Visual Studio 2012\Projects\BowlingTA\Test\bin\Debug\BowlingTA.pdb
+C:\Users\wblack\Documents\Visual Studio 2012\Projects\BowlingTA\Test\obj\Debug\Test.dll
+C:\Users\wblack\Documents\Visual Studio 2012\Projects\BowlingTA\Test\obj\Debug\Test.pdb
+C:\Users\wblack\Documents\Visual Studio 2012\Projects\BowlingFinal\Test\bin\Debug\Test.dll
+C:\Users\wblack\Documents\Visual Studio 2012\Projects\BowlingFinal\Test\bin\Debug\Test.pdb
+C:\Users\wblack\Documents\Visual Studio 2012\Projects\BowlingFinal\Test\bin\Debug\BowlingTA.dll
+C:\Users\wblack\Documents\Visual Studio 2012\Projects\BowlingFinal\Test\bin\Debug\BowlingTA.pdb
+C:\Users\wblack\Documents\Visual Studio 2012\Projects\BowlingFinal\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+C:\Users\wblack\Documents\Visual Studio 2012\Projects\BowlingFinal\Test\obj\Debug\Test.dll
+C:\Users\wblack\Documents\Visual Studio 2012\Projects\BowlingFinal\Test\obj\Debug\Test.pdb

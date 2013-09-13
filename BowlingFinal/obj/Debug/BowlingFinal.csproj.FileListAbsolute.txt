@@ -1,0 +1,5 @@
+C:\Users\wblack\Documents\Visual Studio 2012\Projects\BowlingFinal\BowlingFinal\bin\Debug\BowlingTA.dll
+C:\Users\wblack\Documents\Visual Studio 2012\Projects\BowlingFinal\BowlingFinal\bin\Debug\BowlingTA.pdb
+C:\Users\wblack\Documents\Visual Studio 2012\Projects\BowlingFinal\BowlingFinal\obj\Debug\BowlingFinal.csprojResolveAssemblyReference.cache
+C:\Users\wblack\Documents\Visual Studio 2012\Projects\BowlingFinal\BowlingFinal\obj\Debug\BowlingTA.dll
+C:\Users\wblack\Documents\Visual Studio 2012\Projects\BowlingFinal\BowlingFinal\obj\Debug\BowlingTA.pdb
