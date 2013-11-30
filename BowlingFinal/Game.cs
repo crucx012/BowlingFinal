@@ -1,4 +1,6 @@
-﻿namespace BowlingFinal
+﻿using System.Collections.Generic;
+
+namespace BowlingFinal
 {
     public class Game
     {
@@ -33,6 +35,30 @@
             return score;
         }
 
+        public int[] ScoreByFrames()
+        {
+            var score = new int[10];
+            int frameIndex = 0;
+            for (int frame = 0; frame < 10; frame++)
+                if (IsStrike(frameIndex))
+                {
+                    score[frame] = 10 + StrikeBonus(frameIndex) + LatestScore(frame, score);
+                    frameIndex++;
+                }
+                else if (IsSpare(frameIndex))
+                {
+                    score[frame] = 10 + SpareBonus(frameIndex) + LatestScore(frame, score);
+                    frameIndex += 2;
+                }
+                else
+                {
+                    score[frame] = SumOfTheBallsInFrame(frameIndex) + LatestScore(frame, score);
+                    frameIndex += 2;
+                }
+
+            return score;
+        }
+
         private bool IsStrike(int frameIndex)
         {
             return _rolls[frameIndex] == 10;
@@ -56,6 +82,11 @@
         private int SumOfTheBallsInFrame(int frameIndex)
         {
             return _rolls[frameIndex] + _rolls[frameIndex + 1];
+        }
+
+        private int LatestScore(int frame, IList<int> score)
+        {
+            return frame > 0 ? score[frame - 1] : 0;
         }
     }
 }

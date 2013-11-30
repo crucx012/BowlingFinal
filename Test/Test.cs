@@ -1,4 +1,6 @@
-﻿using BowlingFinal;
+﻿using System;
+using System.Collections;
+using BowlingFinal;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Test
@@ -73,6 +75,15 @@ namespace Test
             Setup();
             RollMany(12, 10);
             Assert.AreEqual(300, _g.Score());
+        }
+
+        [TestMethod]
+        public void TestSpareInTenth()
+        {
+            var results = new ArrayList(){15, 30, 45, 60, 75, 90, 105, 120, 135, 150};
+            Setup();
+            RollMany(21,5);
+            CollectionAssert.AreEqual(results, _g.ScoreByFrames() );
         }
     }
 }
